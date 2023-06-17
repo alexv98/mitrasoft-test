@@ -1,0 +1,26 @@
+@import "src/styles/custom";
+
+.card {
+
+  button {
+    padding: 5px 25px;
+    background-color: white !important;
+    color: $border-color;
+    border: 1px solid $border-color;
+    font-size: 18px;
+    border-radius: .375rem;
+    &:hover {
+      background-color: $border-color !important;
+      color: white;
+    }
+  }
+
+  &-email {
+    font-weight: bold;
+    color: $border-color;
+  }
+
+  &-body {
+    border-radius: .375rem;
+  }
+}

@@ -1,0 +1,21 @@
+
+.post {
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+}
+
+.post-img {
+  width: 100%;
+  min-width: 80px;
+}
+
+.contacts {
+  a {
+    text-decoration: none;
+    color: darkgrey;
+    &:hover {
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.skills {
+  &-about {
+    color: #9a9a9a;
+
+    li {
+      > span {
+        color: black;
+      }
+    }
+  }
+
+  color: darkgrey;
+  li {
+    > span {
+      color: black;
+    }
+  }
+}
